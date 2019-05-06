@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MachineMonitor</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="sub_title_separator">|</string>
+    <string name="sub_title_format" formatted="false">%.1f km | %d kcal</string>
+    <string name="connect">CONNECT</string>
+    <string name="disconnect">DISCONNECT</string>
+    <string name="default_node_name">default node name</string>
+    <string name="sensor">sensorID:%1$1s</string>
+    <string name="current_value">current value:%1$1s</string>
+    <string name="node_title">machine</string>
+    <string name="temp">temperature</string>
+    <string name="unknown">unknown</string>
+    <string name="sensor_type">sensor type:%1$1s</string>
+    <string name="settings">settings</string>
+    <string name="refresh">refresh</string>
+</resources>

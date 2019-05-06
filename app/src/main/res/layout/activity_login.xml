@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:focusableInTouchMode="true"
+    android:gravity="center_horizontal"
+    tools:context=".ui.login.LoginActivity">
+
+    <ImageView
+        android:paddingTop="46dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/fatri"/>
+
+    <scut.carson_ho.diy_view.SuperEditText
+        android:id="@+id/et_login_userName"
+        android:layout_marginTop="40dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        app:ic_left_click="@drawable/ic_left_click"
+        app:ic_left_unclick="@drawable/ic_left_unclick"
+        app:left_x="0"
+        app:left_y="0"
+        app:left_width="60"
+        app:left_height="60"
+
+        app:ic_delete="@drawable/delete"
+        app:delete_x="0"
+        app:delete_y="0"
+        app:delete_width="80"
+        app:delete_height="80"
+
+        app:lineColor_click="@color/colorfocus"
+        app:lineColor_unclick="@color/colorDeafult"
+        app:linePosition="1"
+
+        app:cursor="@drawable/cursortest"
+        android:hint="请输入用户名"
+        android:textSize="20sp"
+        android:textColor="@color/colorfocus"
+        />
+
+
+    <scut.carson_ho.diy_view.SuperEditText
+        android:id="@+id/et_login_pwd"
+        android:hint="请输入密码"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:focusableInTouchMode="true"
+
+        app:ic_left_click="@drawable/password_click"
+        app:ic_left_unclick="@drawable/password_unclick"
+
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/round_button_shape"
+        android:text="登录" />
+
+
+    <ProgressBar
+        android:id="@+id/pb_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30dp"
+        android:background="#4000"
+        android:paddingBottom="10dp"
+        android:visibility="gone" />
+</LinearLayout>

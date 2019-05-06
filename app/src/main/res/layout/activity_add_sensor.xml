@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context="com.emt.fatri.machinemonitormvp.ui.addsensor.AddSensorActivity">
+
+    <TextView
+        android:id="@+id/sensor_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="新增成功Id显示在这里"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingTop="1dp" />
+    <EditText
+        android:id="@+id/sensor_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="请输入传感器名称"
+        android:paddingTop="25dp" />
+
+    <EditText
+        android:id="@+id/sensor_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:digits="123456789"
+        android:hint="输入传感器型号 0：温度 1 震动"
+        android:inputType="number"
+        android:paddingTop="10dp" />
+
+    <EditText
+        android:id="@+id/dev_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="输入设备的Id "
+        android:inputType="number"
+        android:paddingTop="10dp" />
+
+    <EditText
+        android:id="@+id/model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Model "
+        android:inputType="number"
+        android:paddingTop="10dp" />
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Number "
+        android:inputType="number"
+        android:paddingTop="10dp" />
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Location "
+        android:paddingTop="10dp" />
+
+    <EditText
+        android:id="@+id/dev_Type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="DevType "
+        android:inputType="number"
+        android:paddingTop="10dp" />
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加" />
+
+</LinearLayout>
